@@ -1,0 +1,261 @@
+{
+  "lexeme_id": "zapj1",
+  "homophone_group": "zapj",
+  "etymology_type": "native",
+  "cognitive_domain": ["physical", "eventive", "social"],
+  "core_schema": "施力控制某物並將之納入自身處理範圍",
+  "prototype_type": "action",
+
+  "senses": [
+
+    {
+      "sense_id": "zapj1-1",
+      "gloss": "拾起／攞起",
+      "ontological_type": "event",
+      "dynamicity": "dynamic",
+
+      "semantic_dimensions": ["force","control","motion"],
+      "participant_schema": ["agent","theme","source"],
+      "valency": 2,
+
+      "directionality": "inward",
+      "result_state": "possession_change",
+
+      "extension_type": "prototype",
+      "source_sense": null,
+
+      "possible_pos": ["verb"],
+      "construction_types": ["transitive","resultative"],
+
+      "examples": [
+        "執到本書",
+        "過去執返上嚟",
+        "執紙皮"
+      ]
+    },
+
+    {
+      "sense_id": "zapj1-2",
+      "gloss": "獲取好處／着數",
+      "ontological_type": "event",
+      "dynamicity": "dynamic",
+
+      "semantic_dimensions": ["social","evaluation","control"],
+      "participant_schema": ["agent","benefit_source"],
+      "valency": 1,
+
+      "directionality": "inward",
+      "result_state": "status_change",
+
+      "extension_type": "metaphor",
+      "source_sense": "zapj1-1",
+
+      "possible_pos": ["verb"],
+      "construction_types": ["intransitive","benefactive"],
+
+      "examples": [
+        "喺中間執",
+        "執多少少",
+        "執到笑"
+      ]
+    },
+
+    {
+      "sense_id": "zapj1-3",
+      "gloss": "收拾／整理",
+      "ontological_type": "process",
+      "dynamicity": "dynamic",
+
+      "semantic_dimensions": ["control","order","space"],
+      "participant_schema": ["agent","theme","location"],
+      "valency": 2,
+
+      "directionality": "inward",
+      "result_state": "state_change",
+
+      "extension_type": "abstraction",
+      "source_sense": "zapj1-1",
+
+      "possible_pos": ["verb"],
+      "construction_types": ["transitive","resultative"],
+
+      "examples": [
+        "執行李",
+        "執乾淨",
+        "執屋"
+      ]
+    },
+
+    {
+      "sense_id": "zapj1-4",
+      "gloss": "處理後續／收尾",
+      "ontological_type": "event",
+      "dynamicity": "dynamic",
+
+      "semantic_dimensions": ["control","social","time"],
+      "participant_schema": ["agent","situation"],
+      "valency": 1,
+
+      "directionality": "inward",
+      "result_state": "situation_change",
+
+      "extension_type": "abstraction",
+      "source_sense": "zapj1-3",
+
+      "possible_pos": ["verb"],
+      "construction_types": ["light-verb","idiomatic"],
+
+      "examples": [
+        "執手尾",
+        "同你執骨"
+      ]
+    },
+
+    {
+      "sense_id": "zapj1-5",
+      "gloss": "持／攞（文言義）",
+      "ontological_type": "state",
+      "dynamicity": "static",
+
+      "semantic_dimensions": ["control","possession"],
+      "participant_schema": ["agent","theme"],
+      "valency": 1,
+
+      "directionality": "inward",
+      "result_state": "possession_state",
+
+      "extension_type": "historical_retention",
+      "source_sense": "zapj1-1",
+
+      "possible_pos": ["verb"],
+      "construction_types": ["formal"],
+
+      "examples": [
+        "手執一把扇"
+      ]
+    },
+
+    {
+      "sense_id": "zapj1-6",
+      "gloss": "名物化：一手／一握",
+      "ontological_type": "object",
+      "dynamicity": "static",
+
+      "semantic_dimensions": ["quantity","body"],
+      "participant_schema": ["theme"],
+      "valency": 1,
+
+      "directionality": "none",
+      "result_state": "none",
+
+      "extension_type": "nominalization",
+      "source_sense": "zapj1-1",
+
+      "possible_pos": ["classifier","noun"],
+      "construction_types": ["measure"],
+
+      "examples": [
+        "多執毛"
+      ]
+    },
+
+    {
+      "sense_id": "zapj1-7",
+      "gloss": "執一劑 → 性行為隱喻",
+      "ontological_type": "event",
+      "dynamicity": "dynamic",
+
+      "semantic_dimensions": ["social","body","evaluation"],
+      "participant_schema": ["agent","patient"],
+      "valency": 1,
+
+      "directionality": "inward",
+      "result_state": "body_state_change",
+
+      "extension_type": "metaphor",
+      "source_sense": "zapj1-1",
+
+      "possible_pos": ["verb"],
+      "construction_types": ["idiomatic"],
+
+      "examples": [
+        "幾時執返劑",
+        "想去執人一劑"
+      ]
+    }
+
+  ]
+}
+
+{
+  "lexeme_id": "zapj2",
+  "homophone_group": "zapj",
+  "etymology_type": "grammaticalized",
+  "cognitive_domain": ["social","eventive"],
+  "core_schema": "一個運作系統的終止",
+  "prototype_type": "change",
+
+  "senses": [
+    {
+      "sense_id": "zapj2-1",
+      "gloss": "結業／倒閉",
+      "ontological_type": "event",
+      "dynamicity": "dynamic",
+
+      "semantic_dimensions": ["social","evaluation","time"],
+      "participant_schema": ["institution"],
+      "valency": 1,
+
+      "directionality": "none",
+      "result_state": "status_change",
+
+      "extension_type": "constructionalization",
+      "source_sense": null,
+
+      "possible_pos": ["verb","adj"],
+      "construction_types": ["intransitive","idiomatic"],
+
+      "examples": [
+        "間舖執鬼咗",
+        "啱啱執"
+      ]
+    }
+  ]
+}
+
+{
+  "lexeme_id": "zapj3",
+  "homophone_group": "zapj",
+  "etymology_type": "native",
+  "cognitive_domain": ["physical","material"],
+  "core_schema": "由物體中釋出嘅液體物質",
+  "prototype_type": "substance",
+
+  "senses": [
+    {
+      "sense_id": "zapj3-1",
+      "gloss": "汁液",
+      "ontological_type": "object",
+      "dynamicity": "static",
+
+      "semantic_dimensions": ["substance","food"],
+      "participant_schema": ["theme"],
+      "valency": 1,
+
+      "directionality": "none",
+      "result_state": "none",
+
+      "extension_type": "prototype",
+      "source_sense": null,
+
+      "possible_pos": ["noun"],
+      "construction_types": ["nominal"],
+
+      "examples": [
+        "汁都飲埋",
+        "榨汁"
+      ]
+    }
+  ]
+}
+
