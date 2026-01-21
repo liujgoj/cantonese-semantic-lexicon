@@ -69,8 +69,8 @@ embedding alignment
 
 grammar induction
 
-# 📂 Repository Structure (proposed)
-## 📂 Repository Structure
+# 📂 Repository Structure
+
 
 ```
 cantonese-semantic-lexicon/
