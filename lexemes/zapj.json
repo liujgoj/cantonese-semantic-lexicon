@@ -161,7 +161,7 @@
 
     {
       "sense_id": "zapj1-7",
-      "gloss": "執一劑 → 性行為隱喻",
+      "gloss": "執藥 → 性行為隱喻",
       "ontological_type": "event",
       "dynamicity": "dynamic",
 
@@ -197,8 +197,8 @@
 
   "senses": [
     {
-      "sense_id": "zapj2-1",
-      "gloss": "結業／倒閉",
+      "sense_id": "zapj1-3",
+      "gloss": "執拾包袱",
       "ontological_type": "event",
       "dynamicity": "dynamic",
 
