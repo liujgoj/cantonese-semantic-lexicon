@@ -1,199 +1,134 @@
-{
-  "lexeme_id": "lukj1",
-  "homophone_group": "lukj",
-  "etymology_type": "native",
-  "cognitive_domain": ["physical", "spatial", "eventive"],
-  "core_schema": "具有圓柱外形並可產生滾動運動的物體／動作圖式",
-  "prototype_type": "object-motion",
-
-  "senses": [
-
-    {
-      "sense_id": "lukj1-1",
-      "gloss": "圓柱狀物體",
-      "ontological_type": "object",
-      "dynamicity": "static",
-
-      "semantic_dimensions": ["space","shape"],
-      "participant_schema": ["theme"],
-      "valency": 1,
-
-      "directionality": "none",
-      "result_state": "none",
-
-      "extension_type": "prototype",
-      "source_sense": null,
-
-      "possible_pos": ["noun","classifier"],
-      "construction_types": ["classifier"],
-
-      "examples": [
-        "呢碌嘢係鐵嚟㗎",
-        "一碌蔗",
-        "碌棍"
-      ]
-    },
-
-    {
-      "sense_id": "lukj1-2",
-      "gloss": "量詞：圓柱形單位",
-      "ontological_type": "relation",
-      "dynamicity": "static",
-
-      "semantic_dimensions": ["space","quantification"],
-      "participant_schema": ["theme"],
-      "valency": 1,
-
-      "directionality": "none",
-      "result_state": "none",
-
-      "extension_type": "metonymy",
-      "source_sense": "lukj1-1",
-
-      "possible_pos": ["classifier"],
-      "construction_types": ["classifier"],
-
-      "examples": [
-        "一碌蔗",
-        "十幾碌"
-      ]
-    },
-
-    {
-      "sense_id": "lukj1-3",
-      "gloss": "時間單位（坐監幾碌）",
-      "ontological_type": "relation",
-      "dynamicity": "static",
-
-      "semantic_dimensions": ["time","social"],
-      "participant_schema": ["experiencer"],
-      "valency": 1,
-
-      "directionality": "none",
-      "result_state": "status_change",
-
-      "extension_type": "metaphor",
-      "source_sense": "lukj1-2",
-
-      "possible_pos": ["classifier","noun"],
-      "construction_types": ["classifier","measure"],
-
-      "examples": [
-        "坐完十幾碌放出嚟",
-        "十碌八碌"
-      ]
-    },
-
-    {
-      "sense_id": "lukj1-4",
-      "gloss": "滾動",
-      "ontological_type": "event",
-      "dynamicity": "dynamic",
-
-      "semantic_dimensions": ["motion","force"],
-      "participant_schema": ["theme","path"],
-      "valency": 1,
-
-      "directionality": "none",
-      "result_state": "location_change",
-
-      "extension_type": "metonymy",
-      "source_sense": "lukj1-1",
-
-      "possible_pos": ["verb"],
-      "construction_types": ["intransitive","resultative"],
-
-      "examples": [
-        "用鐵絲滾筒轆出嚟嘅花紋"
-      ]
-    },
-
-    {
-      "sense_id": "lukj1-5",
-      "gloss": "睩（眼球快速轉動／瞪）",
-      "ontological_type": "event",
-      "dynamicity": "dynamic",
-
-      "semantic_dimensions": ["motion","perception"],
-      "participant_schema": ["experiencer","body_part"],
-      "valency": 1,
-
-      "directionality": "none",
-      "result_state": "perception_change",
-
-      "extension_type": "metaphor",
-      "source_sense": "lukj1-4",
-
-      "possible_pos": ["verb"],
-      "construction_types": ["intransitive"],
-
-      "examples": [
-        "碌到隻眼咁大",
-        "睩大雙眼"
-      ]
-    }
-
-  ]
-}
-
-{
-  "lexeme_id": "lukj2",
-  "homophone_group": "lukj",
-  "etymology_type": "native+loan",
-  "cognitive_domain": ["physical","social","evaluation"],
-  "core_schema": "可被觀看與評價的外在形態",
-  "prototype_type": "object",
-
-  "senses": [
-
-    {
-      "sense_id": "lukj2-1",
-      "gloss": "輪子／轆",
-      "ontological_type": "object",
-      "dynamicity": "static",
-
-      "semantic_dimensions": ["space","motion"],
-      "participant_schema": ["theme"],
-      "valency": 1,
-
-      "directionality": "none",
-      "result_state": "none",
-
-      "extension_type": "prototype",
-      "source_sense": null,
-
-      "possible_pos": ["noun"],
-      "construction_types": ["nominal"],
-
-      "examples": [
-        "個轆撞扁咗"
-      ]
-    },
-
-    {
-      "sense_id": "lukj2-2",
-      "gloss": "外觀／形象（look）",
-      "ontological_type": "state",
-      "dynamicity": "static",
-
-      "semantic_dimensions": ["evaluation","social"],
-      "participant_schema": ["theme","observer"],
-      "valency": 1,
-
-      "directionality": "none",
-      "result_state": "evaluation",
-
-      "extension_type": "metaphor+loan",
-      "source_sense": "lukj2-1",
-
-      "possible_pos": ["noun"],
-      "construction_types": ["nominal","evaluative"],
-
-      "examples": [
-        "呢個look夠殺喇",
-        "keep住呢個look"
-      ]
-    }
-
-  ]
-}
+[
+  {
+    "lexeme_id": "lukj1",
+    "homophone_group": "lukj",
+    "etymology_type": "native",
+    "cognitive_domain": ["physical", "spatial", "eventive"],
+    "core_schema": "具有圓柱外形並可產生滾動運動的物體／動作圖式",
+    "prototype_type": "object-motion",
+    "senses": [
+      {
+        "sense_id": "lukj1-1",
+        "gloss": "圓柱狀物體",
+        "ontological_type": "object",
+        "dynamicity": "static",
+        "semantic_dimensions": ["space", "shape"],
+        "participant_schema": ["theme"],
+        "valency": 1,
+        "directionality": "none",
+        "result_state": "none",
+        "extension_type": "prototype",
+        "source_sense": null,
+        "possible_pos": ["noun", "classifier"],
+        "construction_types": ["classifier"],
+        "examples": ["呢碌嘢係鐵嚟㗎", "一碌蔗", "碌棍"]
+      },
+      {
+        "sense_id": "lukj1-2",
+        "gloss": "量詞：圓柱形單位",
+        "ontological_type": "relation",
+        "dynamicity": "static",
+        "semantic_dimensions": ["space", "quantification"],
+        "participant_schema": ["theme"],
+        "valency": 1,
+        "directionality": "none",
+        "result_state": "none",
+        "extension_type": "metonymy",
+        "source_sense": "lukj1-1",
+        "possible_pos": ["classifier"],
+        "construction_types": ["classifier"],
+        "examples": ["一碌蔗", "十幾碌"]
+      },
+      {
+        "sense_id": "lukj1-3",
+        "gloss": "時間單位（坐監幾碌）",
+        "ontological_type": "relation",
+        "dynamicity": "static",
+        "semantic_dimensions": ["time", "social"],
+        "participant_schema": ["experiencer"],
+        "valency": 1,
+        "directionality": "none",
+        "result_state": "status_change",
+        "extension_type": "metaphor",
+        "source_sense": "lukj1-2",
+        "possible_pos": ["classifier", "noun"],
+        "construction_types": ["classifier", "measure"],
+        "examples": ["坐完十幾碌放出嚟", "十碌八碌"]
+      },
+      {
+        "sense_id": "lukj1-4",
+        "gloss": "滾動",
+        "ontological_type": "event",
+        "dynamicity": "dynamic",
+        "semantic_dimensions": ["motion", "force"],
+        "participant_schema": ["theme", "path"],
+        "valency": 1,
+        "directionality": "none",
+        "result_state": "location_change",
+        "extension_type": "metonymy",
+        "source_sense": "lukj1-1",
+        "possible_pos": ["verb"],
+        "construction_types": ["intransitive", "resultative"],
+        "examples": ["用鐵絲滾筒轆出嚟嘅花紋"]
+      },
+      {
+        "sense_id": "lukj1-5",
+        "gloss": "睩（眼球快速轉動／瞪）",
+        "ontological_type": "event",
+        "dynamicity": "dynamic",
+        "semantic_dimensions": ["motion", "perception"],
+        "participant_schema": ["experiencer", "body_part"],
+        "valency": 1,
+        "directionality": "none",
+        "result_state": "perception_change",
+        "extension_type": "metaphor",
+        "source_sense": "lukj1-4",
+        "possible_pos": ["verb"],
+        "construction_types": ["intransitive"],
+        "examples": ["碌到隻眼咁大", "睩大雙眼"]
+      }
+    ]
+  },
+  {
+    "lexeme_id": "lukj2",
+    "homophone_group": "lukj",
+    "etymology_type": "native+loan",
+    "cognitive_domain": ["physical", "social", "evaluation"],
+    "core_schema": "可被觀看與評價的外在形態",
+    "prototype_type": "object",
+    "senses": [
+      {
+        "sense_id": "lukj2-1",
+        "gloss": "輪子／轆",
+        "ontological_type": "object",
+        "dynamicity": "static",
+        "semantic_dimensions": ["space", "motion"],
+        "participant_schema": ["theme"],
+        "valency": 1,
+        "directionality": "none",
+        "result_state": "none",
+        "extension_type": "prototype",
+        "source_sense": null,
+        "possible_pos": ["noun"],
+        "construction_types": ["nominal"],
+        "examples": ["個轆撞扁咗"]
+      },
+      {
+        "sense_id": "lukj2-2",
+        "gloss": "外觀／形象（look）",
+        "ontological_type": "state",
+        "dynamicity": "static",
+        "semantic_dimensions": ["evaluation", "social"],
+        "participant_schema": ["theme", "observer"],
+        "valency": 1,
+        "directionality": "none",
+        "result_state": "evaluation",
+        "extension_type": "metaphor+loan",
+        "source_sense": "lukj2-1",
+        "possible_pos": ["noun"],
+        "construction_types": ["nominal", "evaluative"],
+        "examples": ["呢個look夠殺喇", "keep住呢個look"]
+      }
+    ]
+  }
+]
