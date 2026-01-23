@@ -69,7 +69,10 @@ embedding alignment
 
 grammar induction
 
-# 📂 Repository Structure (proposed)
+# 📂 Repository Structure
+
+
+```
 cantonese-semantic-lexicon/
 │
 ├── lexemes/
@@ -90,6 +93,9 @@ cantonese-semantic-lexicon/
 │   └── annotated-sentences.json
 │
 └── README.md
+```
+
+
 
 # 🧩 Data Model
 
